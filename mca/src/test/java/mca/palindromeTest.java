@@ -14,9 +14,9 @@ public class palindromeTest {
 	}
 	@Test
 	public void testApp1() {
-		Hello t=new Hello();
+		Hello t1=new Hello();
         String expected = "true";
-        boolean actual =t.isPrime(5);
+        boolean actual =t1.isPrime(5);
 
         Assertions.assertEquals(expected, actual);
 	}
