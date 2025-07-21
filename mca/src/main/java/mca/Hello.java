@@ -10,5 +10,13 @@ public class Hello {
 	    String str=s1.reverse().toString();
 	    return str;
 	    }
-
+       public boolean isprime(int no)
+	{int flag=0;
+	       for(int i=2;i<no;i++)
+		       {
+                          if(no%i==0)
+			   return false;
+		       }
+         return true;
+	}
 }
