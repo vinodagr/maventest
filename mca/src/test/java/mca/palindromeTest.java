@@ -6,7 +6,7 @@ public class palindromeTest {
 
 	@Test
 	public void testApp() {
-		Hello t=new Hello();
+	Hello t=new Hello();
         String expected = "aba";
         String actual =t.palindrome(expected);
 
@@ -14,7 +14,7 @@ public class palindromeTest {
 	}
 	@Test
 	public void testApp1() {
-		Hello t1=new Hello();
+	Hello t1=new Hello();
         String expected = "true";
         boolean actual =t1.isPrime(5);
 
